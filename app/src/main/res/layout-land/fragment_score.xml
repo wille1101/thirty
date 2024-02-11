@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red_light">
+
+    <Button
+        android:id="@+id/back_to_main_button"
+        android:layout_width="220dp"
+        android:layout_height="71dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif"
+        android:text="@string/back_to_main_button"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/red_light"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout4" />
+
+    <TableLayout
+        android:id="@+id/tableLayout4"
+        android:layout_width="220dp"
+        android:layout_height="228dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toEndOf="@+id/tableLayout2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/table_chocie_8"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/table_label_8"
+                android:textColor="@color/red_light"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/table_points_8"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_style"
+                android:gravity="center"
+                android:text="@string/table_points_0"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/table_chocie_9"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/table_label_9"
+                android:textColor="@color/red_light"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/table_points_9"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_style"
+                android:gravity="center"
+                android:text="@string/table_points_0"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/table_chocie_10"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/table_label_10"
+                android:textColor="@color/red_light"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/table_points_10"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_style"
+                android:gravity="center"
+                android:text="@string/table_points_0"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/table_chocie_11"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/table_label_11"
+                android:textColor="@color/red_light"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/table_points_11"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_style"
+                android:gravity="center"
+                android:text="@string/table_points_0"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/table_chocie_12"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/table_label_12"
+                android:textColor="@color/red_light"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/table_points_12"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_style"
+                android:gravity="center"
+                android:text="@string/table_points_0"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="220dp"
+        android:layout_height="228dp"
+        android:layout_marginEnd="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/table_chocie_Low"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/table_label_low"
+                android:textColor="@color/red_light"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/table_points_Low"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_style"
+                android:gravity="center"
+                android:text="@string/table_points_0"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/table_chocie_4"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/table_label_4"
+                android:textColor="@color/red_light"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/table_points_4"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_style"
+                android:gravity="center"
+                android:text="@string/table_points_0"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/table_chocie_5"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/table_label_5"
+                android:textColor="@color/red_light"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/table_points_5"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_style"
+                android:gravity="center"
+                android:text="@string/table_points_0"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/table_chocie_6"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/table_label_6"
+                android:textColor="@color/red_light"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/table_points_6"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_style"
+                android:gravity="center"
+                android:text="@string/table_points_0"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/table_chocie_7"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/table_label_7"
+                android:textColor="@color/red_light"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/table_points_7"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_style"
+                android:gravity="center"
+                android:text="@string/table_points_0"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/total_score_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_score_label"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/back_to_main_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2" />
+
+    <TextView
+        android:id="@+id/score_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_label"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

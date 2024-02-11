@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Thirty</string>
+    <string name="main_fragment_label">Main Menu</string>
+    <string name="game_fragment_label">Game</string>
+    <string name="score_fragment_label">Score</string>
+    <string name="welcome_label">Welcome to the game Thirty!</string>
+    <string name="score_label">Here\'s your score</string>
+    <string name="total_score_label">Total score: 0 points</string>
+    <string name="play_button">Play</string>
+    <string name="prev_button">Previous</string>
+    <string name="roll_button">Roll</string>
+    <string name="next_round_button">Next</string>
+    <string name="finish_button">Finish</string>
+    <string name="back_to_main_button">Main menu</string>
+    <string name="round_label">Round: 1/10</string>
+    <string name="roll_label">Roll: 0/3</string>
+    <string name="choice_label">Choice: </string>
+    <string name="points_label">0 points</string>
+
+    <string name="dialog_not_valid_choice">The choice that was selected is not valid!\n\n
+    Make sure the total points of the selection of dices correspond to the selected choice</string>
+    <string name="dialog_ok_button">Okay</string>
+
+    <string name="table_label_low">Low</string>
+    <string name="table_label_4">4</string>
+    <string name="table_label_5">5</string>
+    <string name="table_label_6">6</string>
+    <string name="table_label_7">7</string>
+    <string name="table_label_8">8</string>
+    <string name="table_label_9">9</string>
+    <string name="table_label_10">10</string>
+    <string name="table_label_11">11</string>
+    <string name="table_label_12">12</string>
+
+    <string name="table_points_0">0</string>
+
+    <string-array name="choice_array">
+        <item>Low</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+</resources>
